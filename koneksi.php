@@ -1,9 +1,9 @@
 <?php
-    $con = mysqli_connect("localhost","root","root","toko_online");
+$con = mysqli_connect("localhost", "root", "root", "toko_online");
 
-    // Check connection
-    if (mysqli_connect_errno()) {
-        echo "Failed to connect to MySQL: " .mysqli_connect_error();
-        exit();
-    }
+// Check connection
+if (mysqli_connect_errno()) {
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+    exit();
+}
 ?>
